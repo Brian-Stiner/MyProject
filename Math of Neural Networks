@@ -3,8 +3,10 @@ import copy, numpy as np
 
 #Sigmoid
 def sigmoid(x):
-    output = 1/(1+np.exp(-x))
-    return output
+    return 1/(1+np.exp(-x))
+#Relu
+def relu(x)
+    np.maximum(x,0,x)
 
 #Sigmoid Derivative
 def sigmoid_output_to_derivative(output):
